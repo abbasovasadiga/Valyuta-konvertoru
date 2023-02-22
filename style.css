@@ -27,9 +27,7 @@ body {
 
 }
 
-.input-left {}
 
-.input-right {}
 
 h1 {
     width: 587px;
@@ -52,7 +50,7 @@ h3 {
     margin-top: 33px;
 }
 
-main {}
+
 
 header {
     width: 100%;
@@ -60,15 +58,7 @@ header {
     background: #F5F5F6;
 }
 
-span:hover{
-background-color:  #833AE0;
-color:#FFFFFF;
-}
 
-span:active{
-    background-color:  #833AE0;
-    color:#FFFFFF; 
-}
 
 .sing-btn {
     width: 58px;
@@ -112,27 +102,88 @@ a {
     text-decoration: none;
 }
 
-.valyuta {
+.currency-left {
     display: flex;
+    font-weight: 400;
+    Size: 12px;
+    line-height: 14.06px;
+    align-items: Center;
 
 }
 
+.currency-right {
+    display: flex;
+    font-weight: 400;
+    Size: 12px;
+    line-height: 14.06px;
+    align-items: Center;
 
-.input-div {
+}
+
+input {
     width: 259px;
     height: 102px;
     border: 1px solid #E5E5E5;
     border-radius: 3px;
+    padding-bottom: 38px;
+    padding-left: 15px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+
 }
 
-span {
-    border: solid 1px #C6C6C6;
-    width: 62.56px;
-    height: 28px;
+.input-div {
+    margin-top: 20px;
+    position: relative;
+}
+
+.currency-name {
+    border: solid 1px #E5E5E5;
+    width: 65.06px;
+    height: 30px;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
+    display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     color: #C6C6C6;
+    cursor: pointer;
+    border-right: 0px;
+
+}
+
+.currency-text {
+    width: 119px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C6C6C6;
+    bottom: 10px;
+    left: 17px;
+}
+
+.currency-name:first-child {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.currency-name:last-child {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-right: 1px solid #E5E5E5;
+}
+
+.currency-name-active {
+    background-color: #833AE0;
+    border-color: #833AE0;
+    color: white;
 }
