@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1152px;
+    height: 700px;
+    font-family: 'Roboto';
+    font-style: normal;
+    margin: 0px auto;
+}
+
+.main-content {
+    width: 640px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.convert-content {
+    display: flex;
+    gap: 123px;
+
+}
+
+.input-left {}
+
+.input-right {}
+
+h1 {
+    width: 587px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 56px;
+}
+
+h3 {
+    width: 120px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: #9F9F9F;
+    margin-top: 33px;
+}
+
+main {}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #F5F5F6;
+}
+
+span:hover{
+background-color:  #833AE0;
+color:#FFFFFF;
+}
+
+span:active{
+    background-color:  #833AE0;
+    color:#FFFFFF; 
+}
+
+.sing-btn {
+    width: 58px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    border: none;
+    background: white;
+}
+
+
+.head {
+    width: 100%;
+    height: 50px;
+    background: #F5F5F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #959BA4;
+    gap: 21px;
+    list-style: none;
+}
+
+.bank {
+    color: black;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.valyuta {
+    display: flex;
+
+}
+
+
+.input-div {
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+}
+
+span {
+    border: solid 1px #C6C6C6;
+    width: 62.56px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+    color: #C6C6C6;
+}
